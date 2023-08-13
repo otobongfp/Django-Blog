@@ -1,0 +1,114 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="{% static '/css/style.css' %}" rel="stylesheet" type="text/css">
+    <title>Otobong Peter</title>
+</head>
+
+<body>
+    <nav class="navbar nav-color">
+        <div class="container">
+            <p style="font-size: 40px; color: beige;">MySite 🦀</p>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper h-100">
+                    <img src="{% static 'img/main.jpg'%}" id="profile-pic">
+                    <hr>
+                    <p>Building and Leaving the World better than I found it</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+
+                    <h3>I am a Software Engineer 🥑</h3>
+                    <hr>
+                    <p>My name is Otobong Peter, I am interested in Technologies that power the world behind the scenes - Web, Cloud, DevOps, Web3 and Distributed Systems. Beyond Technology, I also love systems design, leadership and community development in the SDG & Tech space.</p>
+                    
+                    <p>In my free time I dabble with writing code (Javascript, Python, Rust), speaking, reading or trying to learn new things. I have also become rather interested in reading research papers too.</p>
+                    <br>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'img/linkedin.png'%}"></li>
+                        <li><img class="social" src="{% static 'img/facebook.png'%}"></li>
+                        <li><img class="social" src="{% static 'img/twitter.png'%}"></li>
+                        <li><img class="social" src="{% static 'img/youtube.png'%}"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Experience</h3>
+                    <hr>
+                    <p><strong>ABCD Technologies</strong></p>
+                    <p style="padding-left: 5px;">Led Product Development</p>
+                    <p style="padding-left: 5px;">Helped over 500 Devs to get started with Blockchain Technology.</p>
+                    <p style="padding-left: 5px;">Organized the first major blockchain event in Southern Nigeria</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Skills</h3>
+                    <hr>
+                    <p>Programming with Javascript, Python & Rust</p>
+                    <p>Building Web and Blockchain Projects.</p>
+                    <p>Product Management</p>
+                    <p>Community Management and Team Leadership</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Community Building</h3>
+                    <hr>
+                    <p>Lead, Google Developers Student's Club</p>
+                    <p>President, Blacks in Technology, Nigeria</p>
+                    <p>African Blockchain Centre for Developers</p>
+                    <p>Open Build</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h3>Articles</h3>
+                    <hr>
+                    <a href="https://otobongpeter.medium.com/simplifying-the-concept-of-ownership-and-borrowing-in-the-rust-programming-language-1b5205b19bac">Dismembering the concept of Ownership in RUST</a>
+                    <a href="https://otobongpeter.medium.com/what-is-ouroboros-and-how-it-works-9f6877a09640">Understanding Ouroboros Proof of Stake Protocol</a>
+                    <a href="https://wire.insiderfinance.io/stable-coins-a-game-changer-or-a-disaster-waiting-to-happen-206d42d5ced?source=user_profile---------12----------------------------">Stable Coins: A Game-changer or Disaster Waiting to Happen</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <p style="text-align: center;">Created with ❤️ using Django</p>
+    </div>
+    
+</body>
+
+</html>
